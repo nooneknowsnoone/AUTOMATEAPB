@@ -77,7 +77,7 @@ module.exports = {
         const cooldownInfo = cmd.cooldown > 0 ? `\n• 𝗖𝗼𝗼𝗹𝗱𝗼𝘄𝗻: ${cmd.cooldown} seconds` : '';
 
         const response = 
-`📖 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗗𝗲𝘁𝗮𝗶𝗹𝘀
+`📖 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗗𝗲𝘁𝗮𝗶𝗹𝘀:
 
 ➥ 𝗡𝗮𝗺𝗲: ${cmd.name}
 ➥ 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: ${cmd.description}
@@ -98,7 +98,7 @@ module.exports = {
       }    
 
       const totalCount = commands.length;    
-      let message = `📖 𝗛𝗲𝗹𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: [ ${totalCount} ]\n\n`;    
+      let message = ` 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: [ ${totalCount} ]\n\n`;    
 
       for (const cat of Object.keys(CATEGORY_MAP)) {    
         if (grouped[cat].length > 0) {    

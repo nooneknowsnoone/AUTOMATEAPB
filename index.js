@@ -7,7 +7,7 @@ const { handlePostback } = require('./handles/handlePostback');
 const tokenManager = require('./handles/tokenManager');
 
 const app = express();
-const VERIFY_TOKEN = 'bot';
+const VERIFY_TOKEN = 'autopagebot';
 const PORT = process.env.PORT || 3000;
 
 // Cooldown storage (in-memory)
